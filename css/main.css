@@ -1,6 +1,6 @@
 /*GENERAL*/
 h1 {
-    font-size: 1.2em !important;
+    font-size: 1.2em; 
     font-style: italic;
     font-weight: 500;
     font-variant: normal;
@@ -168,23 +168,18 @@ footer p {
 }
 
 /*ABOUT PAGE*/
-#nickwolf {
-    text-align: center;
-     overflow: auto; 
+#profile-pic{
+   border-radius: 50%;
+   margin: 0 auto;
+   display: block;
 }
 
-#nickwolf img {
-    border-radius: 50%;
-}
-
-#nickwolf p {
+article p, article ul, article ol{
     font-size: .8em;
-    text-align: left;
-    margin-bottom: 0px;
 }
 
-#nickwolf h1 {
-    text-align: left;
+#process li {
+    margin-bottom: 15px;
 }
 
 /*CONTACT PAGE*/
@@ -263,13 +258,12 @@ footer p {
     #copyright {
         float: left;
     }
-
+    
     /*ABOUT PAGE*/
-    #nickwolf img {
-        float: left;
-        margin-right: 5%;
-    }
-
+    #profile-pic {
+        margin: 0;
+    }    
+    
     /*CONTACT PAGE*/
     #contact-info p {
         margin: 0;
@@ -363,7 +357,7 @@ footer p {
     }
 
     /*ABOUT PAGE*/
-    #nickwolf {
+    #about {
         max-width: 660px;
     }    
     }

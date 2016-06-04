@@ -61,13 +61,10 @@ header li a:hover {
 }
 
 /*LOGO*/
-#logo p {
-    margin-top: 5px;
-    margin-bottom: 30px;
-}
-
 #logo {
-    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    display: block;  
 }
 
 /*GALLERY*/

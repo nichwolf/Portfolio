@@ -1,6 +1,13 @@
 /*GENERAL*/
 h1 {
-    font-size: 1.2em; 
+    font-size: 1.3em; 
+    font-style: italic;
+    font-weight: 500;
+    font-variant: normal;
+}
+
+h2 {
+    font-size: 1em;
     font-style: italic;
     font-weight: 500;
     font-variant: normal;
@@ -171,7 +178,7 @@ footer p {
    display: block;
 }
 
-article p, article ul, article ol{
+article p, article ul {
     font-size: .8em;
 }
 

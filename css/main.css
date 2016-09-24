@@ -361,10 +361,6 @@ article p, article ul {
         
     }
     
-    #sect_wrap img {
-        max-width: 100%;  
-    }
-
     /*ABOUT PAGE*/
     #about {
         max-width: 660px;

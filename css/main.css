@@ -25,7 +25,7 @@ a {
 
 body {
     font: 300 100% "Roboto Mono",monospace;
-    background-color: #e1e1f4;
+    background-color: #ffffff;
 }
 
 #wrapper {
@@ -36,7 +36,6 @@ body {
 
 /*HEADER*/
 .header {
-    background-color: #e1e1f4;
     z-index: 3;
     margin-top: 30px;
     overflow: auto;
@@ -75,7 +74,7 @@ header li a:hover {
 }
 
 /*GALLERY*/
-.columns {
+/*.columns {
     -webkit-column-count: 2;
     -moz-column-count: 2;
     column-count: 2;
@@ -92,7 +91,7 @@ header li a:hover {
 .columns li {
     -webkit-column-break-inside: avoid;
     page-break-inside: avoid;
-    break-inside: avoid;
+    break-inside: avoid;*/
 }
 
 #gallery img {
@@ -241,7 +240,7 @@ article p, article ul {
         float: left;
     }
 
-    .columns {
+   /* .columns {
         -webkit-column-count: 3;
         -moz-column-count: 3;
         column-count: 3;
@@ -251,7 +250,7 @@ article p, article ul {
         -webkit-column-gap: 10px;
         -moz-column-gap: 10px;
         column-gap: 10px;
-    }
+    }*/
 
     /*FOOTER*/
     #socialmedia {
@@ -295,6 +294,9 @@ article p, article ul {
 
     #gallery li {
         padding-bottom: 0;
+        width:32.33333333%;
+        float:left;
+        padding:5px;
     }
 
     #gallery li a p {
@@ -322,6 +324,8 @@ article p, article ul {
     #gallery img {
         border-top-left-radius: 0;
         border-top-right-radius: 0;
+        width:100%;
+        display:block;
     }
 
     #gallery figure {
@@ -329,7 +333,7 @@ article p, article ul {
         box-shadow: none;
     }
 
-    .columns {
+    /*.columns {
         -webkit-column-count: 4;
         -moz-column-count: 4;
         column-count: 4;
@@ -339,7 +343,7 @@ article p, article ul {
         -webkit-column-gap: 0;
         -moz-column-gap: 0;
         column-gap: 0;
-    }
+    }*/
 
     .vert {
         display: table;

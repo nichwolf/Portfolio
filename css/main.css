@@ -74,31 +74,9 @@ header li a:hover {
 }
 
 /*GALLERY*/
-/*.columns {
-    -webkit-column-count: 2;
-    -moz-column-count: 2;
-    column-count: 2;
-    -webkit-column-width: 50%;
-    -moz-column-width: 50%;
-    column-width: 50%;
-    -webkit-column-gap: 10px;
-    -moz-column-gap: 10px;
-    column-gap: 10px;
-    margin: 0;
-    padding: 0;
-}
-
-.columns li {
-    -webkit-column-break-inside: avoid;
-    page-break-inside: avoid;
-    break-inside: avoid;*/
-}
-
 #gallery img {
     max-width: 100%;
     display: block;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
 }
 
 #gallery {
@@ -111,11 +89,12 @@ header li a:hover {
 
 #gallery li {
     padding-bottom: 10px;
+    float:left;
 }
 
 #gallery p {
     font-size: .75em;
-    color: #fff;
+    color: white;
     padding: 5%;
 }
 
@@ -127,10 +106,8 @@ header li a:hover {
 #gallery figcaption {
     width: 100%;
     text-align: center;
-    background-color: #8A8AA7;
+    background-color:black;
     opacity: 1;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
 }
 
 /*FOOTER*/
@@ -239,18 +216,13 @@ article p, article ul {
     #logo {
         float: left;
     }
-
-   /* .columns {
-        -webkit-column-count: 3;
-        -moz-column-count: 3;
-        column-count: 3;
-        -webkit-column-width: 33.333333333%;
-        -moz-column-width: 33.333333333%;
-        column-width: 33.333333333%;
-        -webkit-column-gap: 10px;
-        -moz-column-gap: 10px;
-        column-gap: 10px;
-    }*/
+    
+    #gallery li {
+        padding-bottom: 0;
+        float:left;
+        width:48%;
+        padding:1%;
+    }
 
     /*FOOTER*/
     #socialmedia {
@@ -294,9 +266,9 @@ article p, article ul {
 
     #gallery li {
         padding-bottom: 0;
-        width:32.33333333%;
+        width:31.33333333333333%;
+        padding:1%;
         float:left;
-        padding:5px;
     }
 
     #gallery li a p {
@@ -332,18 +304,6 @@ article p, article ul {
         border-radius: 0;
         box-shadow: none;
     }
-
-    /*.columns {
-        -webkit-column-count: 4;
-        -moz-column-count: 4;
-        column-count: 4;
-        -webkit-column-width: 25%;
-        -moz-column-width: 25%;
-        column-width: 25%;
-        -webkit-column-gap: 0;
-        -moz-column-gap: 0;
-        column-gap: 0;
-    }*/
 
     .vert {
         display: table;

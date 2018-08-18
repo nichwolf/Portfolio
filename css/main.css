@@ -42,6 +42,12 @@ body {
     text-align: center;
 }
 
+.homeheader{
+    width:98%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /*NAVIGATION*/
 span {
     border-bottom: 1px solid #000;
@@ -52,10 +58,11 @@ span {
     padding: 0;
     list-style: none;
     overflow: hidden;
+    margin-bottom:1em;
 }
 
 .header li {
-    margin-bottom: 20px;
+    margin-bottom: 1em;
 }
 
 .header li a {
@@ -69,7 +76,6 @@ header li a:hover {
 /*LOGO*/
 #logo {
     margin: 0 auto;
-    margin-bottom: 30px;
     display: block;  
 }
 
@@ -128,6 +134,12 @@ footer {
     overflow: auto;
 }
 
+.homefooter{
+    width:98%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
 footer p {
     margin: 0;
 }    
@@ -179,6 +191,17 @@ article p, article ul {
 
 /*RESPONSIVE MEDIA QUERIES 480PX AND ABOVE*/
 @media screen and (min-width: 480px) {
+   
+    .header{
+        position:relative;
+    }
+    
+    .header ul{
+        position:absolute;
+        right:0;
+        bottom:0;
+    }
+    
     .header li:last-child {
         margin-bottom: 0;
     }
@@ -212,9 +235,9 @@ article p, article ul {
     span {
         border-bottom: 0;
     }
-
-    #logo {
-        float: left;
+    
+    .logodiv{
+        float:left;
     }
     
     #gallery li {
@@ -250,7 +273,15 @@ article p, article ul {
 }
 
 /*RESPONSIVE MEDIA QUERIES 660PX AND ABOVE*/
-@media screen and (min-width: 660px) {
+@media screen and (min-width: 660px) {  
+     .logodiv{
+        float:left;
+    }
+    
+    .header ul{
+        margin-bottom:0px;
+    }
+    
     .header li {
         display: inline-block;
         border-right: 1px solid #000;

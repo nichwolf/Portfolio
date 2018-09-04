@@ -175,6 +175,10 @@ article p, article ul {
 }
 
 /*CONTACT PAGE*/
+#contact-info{
+    text-align: center;
+}
+
 #contact-info p {
     font-size: .8em;
 }
@@ -263,12 +267,18 @@ article p, article ul {
     }    
     
     /*CONTACT PAGE*/
+    
+    #contact-info{
+        text-align: left;
+    }
+    
     #contact-info p {
         margin: 0;
     }
 
     #contact-info {
         max-width: 660px;
+        margin:0 auto;
     }
 }
 

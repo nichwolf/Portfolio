@@ -29,7 +29,7 @@ body {
 }
 
 #wrapper {
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 2%;
 }
@@ -193,8 +193,8 @@ article p, article ul {
     color: #ff6200;
 }
 
-/*RESPONSIVE MEDIA QUERIES 480PX AND ABOVE*/
-@media screen and (min-width: 480px) {
+/*RESPONSIVE MEDIA QUERIES 768PX AND ABOVE*/
+@media screen and (min-width: 768px) {
    
     .header{
         position:relative;
@@ -282,8 +282,8 @@ article p, article ul {
     }
 }
 
-/*RESPONSIVE MEDIA QUERIES 660PX AND ABOVE*/
-@media screen and (min-width: 660px) {  
+/*RESPONSIVE MEDIA QUERIES 992PX AND ABOVE*/
+@media screen and (min-width: 992px) {  
      .logodiv{
         float:left;
     }

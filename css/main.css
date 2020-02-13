@@ -194,8 +194,8 @@ article p, article ul {
     color: #ff6200;
 }
 
-/*RESPONSIVE MEDIA QUERIES 768PX AND ABOVE*/
-@media screen and (min-width: 768px) {
+/*RESPONSIVE MEDIA QUERIES 576PX AND ABOVE*/
+@media screen and (min-width: 576px) {
    
     .header{
         position:relative;
@@ -283,8 +283,8 @@ article p, article ul {
     }
 }
 
-/*RESPONSIVE MEDIA QUERIES 992PX AND ABOVE*/
-@media screen and (min-width: 992px) {  
+/*RESPONSIVE MEDIA QUERIES 768PX AND ABOVE*/
+@media screen and (min-width: 768px) {  
      .logodiv{
         float:left;
     }

@@ -289,8 +289,8 @@ article p, article ul {
     }
 }
 
-/*RESPONSIVE MEDIA QUERIES 768PX AND ABOVE*/
-@media screen and (min-width: 768px) {  
+/*RESPONSIVE MEDIA QUERIES 992PX AND ABOVE*/
+@media screen and (min-width: 992px) {  
      .logodiv{
         float:left;
     }

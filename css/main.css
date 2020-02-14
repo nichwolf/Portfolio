@@ -2,15 +2,13 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400|Roboto:300,400&display=swap');
 
 h1 {
-    font-size: 1.3em; 
-    font-style: italic;
-    font-weight: 500;
+    font-size: 18px; 
+    font-weight: 400;
     font-variant: normal;
 }
 
 h2 {
     font-size: 1em;
-    font-style: italic;
     font-weight: 500;
     font-variant: normal;
 }
@@ -102,7 +100,7 @@ header li a:hover {
 }
 
 #gallery p {
-    font-size: 12.9px;
+    font-size: 15px;
     color: #404040;
     padding: 5%;
     /*border-bottom: 0.5px solid rgb(64,64,64,0.4);*/
@@ -133,7 +131,7 @@ header li a:hover {
 
 footer {
     clear: both;
-    margin: 30px 0;
+    margin:100px 0 50px 0;
     text-align: center;
     padding: 0;
     overflow: auto;
@@ -153,7 +151,10 @@ footer p {
     margin: 0;
     padding: 0;
 }
-
+/*PORTFOLIO PAGE*/
+.portfolio{
+    overflow:hidden;
+}
 /*PROJECT LINKED PAGES FROM GALLERY*/
 .project img {
     width: 100%;
@@ -161,7 +162,7 @@ footer p {
 }
 
 .project p {
-    font-size: .8em;
+    font-size: 15px;
 }
 
 /*ABOUT PAGE*/
@@ -172,7 +173,7 @@ footer p {
 }
 
 article p, article ul {
-    font-size: .8em;
+    font-size: 15px;
 }
 
 #process li {
@@ -196,6 +197,7 @@ article p, article ul {
 
 #secondary a {
     color: #ff6200;
+    font-size:15px;
 }
 
 /*RESPONSIVE MEDIA QUERIES 576PX AND ABOVE*/

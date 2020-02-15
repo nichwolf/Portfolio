@@ -257,6 +257,11 @@ article p, article ul {
     }
 
     /*FOOTER*/
+    
+    #socialmedia a:first-child{
+        display:none;
+    }
+    
     #socialmedia {
         padding-right: 0;
         float: right;

@@ -102,10 +102,8 @@ header li a:hover {
 #gallery p {
     font-size: 15px;
     color: #404040;
-    padding: 5%;
+    padding: 3%;
     /*border-bottom: 0.5px solid rgb(64,64,64,0.4);*/
-    padding-top:3%;
-    padding-bottom:0;
 }
 
 #gallery figure {

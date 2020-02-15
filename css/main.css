@@ -1,6 +1,5 @@
 /*GENERAL*/
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400|Roboto:300,400&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400|Roboto:300,400|Anton&display=swap');
 h1 {
     font-size: 18px; 
     font-weight: 400;
@@ -36,6 +35,11 @@ body {
 }
 
 /*HEADER*/
+header.header{
+    font-family: 'Anton', sans-serif;
+    font-size:25px;
+}
+
 .header {
     z-index: 3;
     margin-top: 30px;
@@ -118,6 +122,11 @@ header li a:hover {
 }
 
 /*FOOTER*/
+
+#socialmedia a:first-child{
+        display:none;
+    }
+
 #socialmedia {
     margin-bottom: 10px;
 }
@@ -257,10 +266,6 @@ article p, article ul {
     }
 
     /*FOOTER*/
-    
-    #socialmedia a:first-child{
-        display:none;
-    }
     
     #socialmedia {
         padding-right: 0;

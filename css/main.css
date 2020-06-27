@@ -127,6 +127,10 @@ header li a:hover {
         display:none;
     }
 
+.outline-none{
+    outline:0;
+}
+
 #socialmedia {
     margin-bottom: 10px;
 }

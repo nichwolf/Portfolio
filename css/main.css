@@ -128,7 +128,7 @@ header li a:hover {
     }
 
 .outline-none{
-    outline:0!important;
+    outline:0 !important;
 }
 
 #socialmedia {

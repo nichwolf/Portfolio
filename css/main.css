@@ -127,7 +127,7 @@ header li a:hover {
         display:none;
     }
 
-.outline-none{
+.no-outline{
     outline:0 !important;
 }
 

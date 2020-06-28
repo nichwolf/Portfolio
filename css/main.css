@@ -385,5 +385,10 @@ article p, article ul {
     .project-link{
         font-weight:700;
         text-decoration:underline;
+        outline:0
+    }
+    
+    .prejct-link a:hover {
+    color: #ff6200;
     }
     }

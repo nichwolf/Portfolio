@@ -382,4 +382,8 @@ article p, article ul {
         margin: 0 auto;
         
     }
+    .project-link{
+        font-weight:700;
+        text-decoration:underline;
+    }
     }

@@ -294,6 +294,7 @@ article p, article ul {
     /*ABOUT PAGE*/
     #profile-pic {
         margin: 0;
+        max-width:150px;
     }    
     
     /*CONTACT PAGE*/

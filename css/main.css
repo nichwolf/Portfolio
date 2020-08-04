@@ -188,9 +188,10 @@ footer p {
 
 /*ABOUT PAGE*/
 #profile-pic{
-   border-radius: 50%;
-   margin: 0 auto;
-   display: block;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+    max-width:150px;
 }
 
 article p, article ul {
